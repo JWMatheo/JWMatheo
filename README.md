@@ -11,7 +11,7 @@ I'm Mathéo a french web3 developper(Solidity, truffle/web3.js, hardhat/ethers.j
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JWMatheo&layout=compact&hide=HTML,Typescript)](https://github.com/anuraghazra/github-readme-stats)
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JWMatheo&count_private=true&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JWMatheo&count_private=true&show_icons=true&theme=transparent&text_color=000000)](https://github.com/anuraghazra/github-readme-stats)
 
 
 <!--
