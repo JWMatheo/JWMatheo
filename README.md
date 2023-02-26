@@ -5,6 +5,7 @@
 <!-- https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmUwNjZjNzE5MDYwODQ2MjdlZmQ2ZTgxY2NhYTIwODMwNmJmODI1NSZjdD1z/xgdfNaM8kr6Lu/giphy.gif -->
 <!-- https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmhnenVuN2R0NGdzcTBvcDNtZ3MyYTQ0Nzc3aG5tNzhqd2IxYjBxbSZjdD1z/124rIiBX0Kh5Cw/giphy.gif -->
 <!-- https://media.tenor.com/us_DLS7EdkYAAAAi/dio-brando.gif -->
+<!-- https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGUxNGQ4ZDYxZmNhYmU0ZTIzNmQ3MzM1YmI4MDRmMzQwZGEyNzdlZCZjdD1z/psPJ1V0avTSrC/giphy.gif -->
 I'm Mathéo a french web3 developper(Solidity, truffle/web3.js, hardhat/ethers.js, React, Next, T3 stack, Typescript) with some knowledge about cryptography. I was a student of economics and management at a preparation class when i really started digging into blockchain in 2017 until I reached a point where to answer my questions I had to start developing in order to be able to verify information. In march 2021 i've co-founded a company to help individuals and others company to define their Blockhain's strategy and develop custom Dapp and infrastructure. I am truly passionate about technology and grateful to be able to witness what seems to be one of the biggest digital and economic transformation.
 
 ## :dart: Reach Me <img width="80" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmhnenVuN2R0NGdzcTBvcDNtZ3MyYTQ0Nzc3aG5tNzhqd2IxYjBxbSZjdD1z/124rIiBX0Kh5Cw/giphy.gif">
