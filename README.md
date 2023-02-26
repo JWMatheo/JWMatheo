@@ -1,5 +1,6 @@
 ### Hi there 👋
-Currently in Malaysia
+
+I'm Mathéo a french web3 developper(Solidity, truffle/web3.js, hardhat/ethers.js, React, Next, T3 stack, Typescript) with some knowledge about cryptography. I was a student of economics and management at a preparation class when i really started digging into blockchain in 2017 until I reached a point where to answer my questions I had to start developing in order to be able to verify information. In march 2021 i've co-founded a company to help individuals and others company to define their Blockhain's strategy and develop custom Dapp and infrastructure. I am truly passionate about technology and grateful to be able to witness what seems to be one of the biggest digital and economic transformation.
 
 ## Reach Me
 
