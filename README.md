@@ -11,7 +11,7 @@ I'm Mathéo a french web3 developper(Solidity, truffle/web3.js, hardhat/ethers.j
 [![GitHub JWMatheo](https://img.shields.io/github/followers/JWMatheo?label=follow%20me&style=social)](https://github.com/JWMatheo)
 
 ## &#x1f4c8; GitHub Stats
-<img align="right" width="200" src="https://media.giphy.com/media/UqYDZT2Sek7bXkL2On/giphy.gif">
+<img align="right" width="400" src="https://media.giphy.com/media/UqYDZT2Sek7bXkL2On/giphy.gif">
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JWMatheo&layout=compact&hide=HTML,CSS,Typescript)](https://github.com/anuraghazra/github-readme-stats)
 
