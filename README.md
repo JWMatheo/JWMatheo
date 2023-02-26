@@ -1,16 +1,10 @@
 ### Hi there 👋
 Currently in Malaysia
 
-<!-- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JWMatheo&count_private=true&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
+(https://github-readme-stats.vercel.app/api?username=JWMatheo&count_private=true&show_icons=true&theme=transparent)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JWMatheo&layout=compact)](https://github.com/anuraghazra/github-readme-stats) -->
+(https://github-readme-stats.vercel.app/api/top-langs/?username=JWMatheo&layout=compact)
 
-<a href="https://github.com/JWMatheo">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=JWMatheo&count_private=true&show_icons=true&theme=transparent)" />
-</a>
-<a href="https://github.com/JWMatheo">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JWMatheo&layout=compact" />
-</a>
 
 
 
