@@ -10,7 +10,7 @@ I'm Mathéo a french web3 developper(Solidity, truffle/web3.js, hardhat/ethers.j
 ## :dart: Reach Me <img width="80" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmhnenVuN2R0NGdzcTBvcDNtZ3MyYTQ0Nzc3aG5tNzhqd2IxYjBxbSZjdD1z/124rIiBX0Kh5Cw/giphy.gif">
 
 [![Twitter: @JW_Matheo](https://img.shields.io/twitter/follow/JW_Matheo?style=social)](https://twitter.com/JW_Matheo)
-[![Linkedin JW Matheo](https://img.shields.io/badge/Connect-0077B5?&logo=linkedin&style=flat)](https://www.linkedin.com/in/matheo-vallone/)
+[![Linkedin JW Matheo](https://img.shields.io/badge/Let%27s%20connect-0077B5?&logo=linkedin&style=flat)](https://www.linkedin.com/in/matheo-vallone/)
 [![GitHub JWMatheo](https://img.shields.io/github/followers/JWMatheo?label=follow%20me&style=social)](https://github.com/JWMatheo)
 <!-- <br><br> -->
 
