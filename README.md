@@ -1,7 +1,7 @@
 ### Hi there 👋
 Currently in Malaysia
 
-(https://github-readme-stats.vercel.app/api?username=JWMatheo&count_private=true&show_icons=true&theme=transparent)
+[(https://github-readme-stats.vercel.app/api?username=JWMatheo&count_private=true&show_icons=true&theme=transparent)]
 
 (https://github-readme-stats.vercel.app/api/top-langs/?username=JWMatheo&layout=compact)
 
