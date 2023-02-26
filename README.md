@@ -1,17 +1,18 @@
 ### Hi there 👋
 Currently in Malaysia
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JWMatheo&count_private=true&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
+<!-- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JWMatheo&count_private=true&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JWMatheo&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JWMatheo&layout=compact)](https://github.com/anuraghazra/github-readme-stats) -->
 
-
-<a href="https://github.com/anuraghazra/github-readme-stats">
+<div>
+<a align="left" href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=JWMatheo&count_private=true&show_icons=true&theme=transparent)" />
 </a>
-<a href="https://github.com/anuraghazra/convoychat">
+<a align="right" href="https://github.com/anuraghazra/convoychat">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JWMatheo&layout=compact" />
 </a>
+ </div>
 
 
 <!--
