@@ -5,14 +5,13 @@ Currently in Malaysia
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JWMatheo&layout=compact)](https://github.com/anuraghazra/github-readme-stats) -->
 
-<div>
-<a align="left" href="https://github.com/anuraghazra/github-readme-stats">
+<a href="https://github.com/JWMatheo">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=JWMatheo&count_private=true&show_icons=true&theme=transparent)" />
 </a>
-<a align="right" href="https://github.com/anuraghazra/convoychat">
+<a href="https://github.com/JWMatheo">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JWMatheo&layout=compact" />
 </a>
- </div>
+
 
 
 <!--
