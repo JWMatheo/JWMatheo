@@ -12,7 +12,7 @@ I'm Mathéo a french web3 developper(Solidity, truffle/web3.js, hardhat/ethers.j
 [![Twitter: @JW_Matheo](https://img.shields.io/twitter/follow/JW_Matheo?style=social)](https://twitter.com/JW_Matheo)
 [![GitHub JWMatheo](https://img.shields.io/github/followers/JWMatheo?label=follow%20me&style=social)](https://github.com/JWMatheo)
 <br><br>
-[![Linkedin JW Matheo](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheo-vallone/)
+[![Linkedin JW Matheo](https://img.shields.io/badge/LinkedIn-0077B5?&logo=linkedin&style=plastic)](https://www.linkedin.com/in/matheo-vallone/)
 
 ## &#x1f4c8; GitHub Stats
 <img align="right" width="350" src="https://media.giphy.com/media/UqYDZT2Sek7bXkL2On/giphy.gif">
