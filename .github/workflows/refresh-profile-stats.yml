@@ -1,0 +1,92 @@
+name: Refresh profile stats
+
+on:
+  schedule:
+    - cron: "17 0,6,12,18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile-stats
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Require the dedicated private-repository token
+        env:
+          PROFILE_STATS_PAT: ${{ secrets.PROFILE_STATS_PAT }}
+        run: |
+          if [ -z "$PROFILE_STATS_PAT" ]; then
+            echo "The PROFILE_STATS_PAT repository secret is required." >&2
+            exit 1
+          fi
+
+      - name: Generate dark statistics card
+        uses: JWMatheo/github-readme-stats-action@e74839b1337fd835b7567ea957468ffd55dec1e5
+        with:
+          card: stats
+          options: username=JWMatheo&count_private=true&include_all_commits=true&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&show=prs_merged&number_format=long&show_icons=true&theme=github_dark_dimmed&hide=issues
+          path: profile/stats-dark.svg
+          token: ${{ secrets.PROFILE_STATS_PAT }}
+          fail_on_error: "true"
+
+      - name: Generate light statistics card
+        uses: JWMatheo/github-readme-stats-action@e74839b1337fd835b7567ea957468ffd55dec1e5
+        with:
+          card: stats
+          options: username=JWMatheo&count_private=true&include_all_commits=true&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&show=prs_merged&number_format=long&show_icons=true&theme=default&hide=issues
+          path: profile/stats-light.svg
+          token: ${{ secrets.PROFILE_STATS_PAT }}
+          fail_on_error: "true"
+
+      - name: Generate dark language card
+        uses: JWMatheo/github-readme-stats-action@e74839b1337fd835b7567ea957468ffd55dec1e5
+        with:
+          card: top-langs
+          options: username=JWMatheo&layout=compact&hide=HTML%2CCSS%2CJavascript&theme=github_dark_dimmed
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.PROFILE_STATS_PAT }}
+          fail_on_error: "true"
+
+      - name: Generate light language card
+        uses: JWMatheo/github-readme-stats-action@e74839b1337fd835b7567ea957468ffd55dec1e5
+        with:
+          card: top-langs
+          options: username=JWMatheo&layout=compact&hide=HTML%2CCSS%2CJavascript&theme=default
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.PROFILE_STATS_PAT }}
+          fail_on_error: "true"
+
+      - name: Verify generated cards
+        run: |
+          for card in profile/stats-dark.svg profile/stats-light.svg profile/top-langs-dark.svg profile/top-langs-light.svg; do
+            test -s "$card"
+            grep -q '<svg' "$card"
+            if grep -q 'Something went wrong' "$card"; then
+              echo "Generated error card: $card" >&2
+              exit 1
+            fi
+          done
+
+      - name: Commit updated cards
+        run: |
+          git add profile/*.svg
+
+          if git diff --cached --quiet; then
+            echo "Profile cards are already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh profile stats"
+          git push
