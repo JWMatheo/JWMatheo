@@ -26,7 +26,7 @@ I'm Mathéo a french web3 developper(Solidity, truffle/web3.js, hardhat/ethers.j
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=JWMatheo&count_private=true&include_all_commits=true&show_icons=true&theme=github_dark_dimmed&hide=issues">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=JWMatheo&count_private=true&include_all_commits=true&show_icons=true&theme=default&hide=issues">
-  <img alt="JWMatheo's GitHub stats" src="https://github-stats-extended.vercel.app/api?username=JWMatheo&count_private=true&include_all_commits=true&show_icons=true&theme=default&hide=issues">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=JWMatheo&count_private=true&include_all_commits=true&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&show=prs_merged&number_format=long&show_icons=true&theme=github_dark_dimmed&hide=issues">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=JWMatheo&count_private=true&include_all_commits=true&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&show=prs_merged&number_format=long&show_icons=true&theme=default&hide=issues">
+  <img alt="JWMatheo's GitHub stats" src="https://github-stats-extended.vercel.app/api?username=JWMatheo&count_private=true&include_all_commits=true&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&show=prs_merged&number_format=long&show_icons=true&theme=default&hide=issues">
 </picture>
