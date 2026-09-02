@@ -19,7 +19,14 @@ I'm Mathéo a french web3 developper(Solidity, truffle/web3.js, hardhat/ethers.j
 ## &#x1f4c8; GitHub Stats
 <img align="right" width="350" src="https://media.giphy.com/media/UqYDZT2Sek7bXkL2On/giphy.gif">
 
-[![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=JWMatheo&layout=compact&hide=HTML,CSS,Javascript)](#)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=JWMatheo&layout=compact&hide=HTML%2CCSS%2CJavascript&theme=github_dark_dimmed">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=JWMatheo&layout=compact&hide=HTML%2CCSS%2CJavascript&theme=default">
+  <img alt="JWMatheo's most used languages" src="https://github-stats-extended.vercel.app/api/top-langs/?username=JWMatheo&layout=compact&hide=HTML%2CCSS%2CJavascript&theme=default">
+</picture>
 
-[![Anurag's GitHub stats](https://github-stats-extended.vercel.app/api?username=JWMatheo&count_private=true&show_icons=true&theme=transparent&text_color=000000&hide=issues&#gh-light-mode-only)](#)
-[![Anurag's GitHub stats](https://github-stats-extended.vercel.app/api?username=JWMatheo&count_private=true&show_icons=true&theme=tokyonight&hide=issues&#gh-dark-mode-only)](https://github.com/stats-organization/github-stats-extended#gh-dark-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=JWMatheo&count_private=true&include_all_commits=true&show_icons=true&theme=github_dark_dimmed&hide=issues">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=JWMatheo&count_private=true&include_all_commits=true&show_icons=true&theme=default&hide=issues">
+  <img alt="JWMatheo's GitHub stats" src="https://github-stats-extended.vercel.app/api?username=JWMatheo&count_private=true&include_all_commits=true&show_icons=true&theme=default&hide=issues">
+</picture>
