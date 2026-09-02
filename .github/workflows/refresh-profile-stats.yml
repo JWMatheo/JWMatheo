@@ -31,7 +31,7 @@ jobs:
           fi
 
       - name: Generate dark statistics card
-        uses: JWMatheo/github-readme-stats-action@6129d0fb58265098852548297e283a09bac260d7
+        uses: JWMatheo/github-readme-stats-action@bd510e27fb10aeca60efa6c7e6b2ef8d22ae1e8a
         with:
           card: stats
           options: username=JWMatheo&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&show=contributions%2Cprs_merged&hide=commits%2Cissues&number_format=long&show_icons=true&theme=github_dark_dimmed
@@ -40,7 +40,7 @@ jobs:
           fail_on_error: "true"
 
       - name: Generate light statistics card
-        uses: JWMatheo/github-readme-stats-action@6129d0fb58265098852548297e283a09bac260d7
+        uses: JWMatheo/github-readme-stats-action@bd510e27fb10aeca60efa6c7e6b2ef8d22ae1e8a
         with:
           card: stats
           options: username=JWMatheo&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&show=contributions%2Cprs_merged&hide=commits%2Cissues&number_format=long&show_icons=true&theme=default
@@ -49,19 +49,19 @@ jobs:
           fail_on_error: "true"
 
       - name: Generate dark language card
-        uses: JWMatheo/github-readme-stats-action@6129d0fb58265098852548297e283a09bac260d7
+        uses: JWMatheo/github-readme-stats-action@bd510e27fb10aeca60efa6c7e6b2ef8d22ae1e8a
         with:
           card: top-langs
-          options: username=JWMatheo&layout=compact&hide=HTML%2CCSS%2CJavascript&theme=github_dark_dimmed
+          options: username=JWMatheo&layout=compact&hide=HTML%2CCSS%2CJavaScript%2CVue%2CSCSS%2CLess%2CShell&theme=github_dark_dimmed
           path: profile/top-langs-dark.svg
           token: ${{ secrets.PROFILE_STATS_PAT }}
           fail_on_error: "true"
 
       - name: Generate light language card
-        uses: JWMatheo/github-readme-stats-action@6129d0fb58265098852548297e283a09bac260d7
+        uses: JWMatheo/github-readme-stats-action@bd510e27fb10aeca60efa6c7e6b2ef8d22ae1e8a
         with:
           card: top-langs
-          options: username=JWMatheo&layout=compact&hide=HTML%2CCSS%2CJavascript&theme=default
+          options: username=JWMatheo&layout=compact&hide=HTML%2CCSS%2CJavaScript%2CVue%2CSCSS%2CLess%2CShell&theme=default
           path: profile/top-langs-light.svg
           token: ${{ secrets.PROFILE_STATS_PAT }}
           fail_on_error: "true"
