@@ -31,7 +31,7 @@ jobs:
           fi
 
       - name: Generate dark statistics card
-        uses: JWMatheo/github-readme-stats-action@1bda035add1ebed29e7b9e32451fd0abbbfec9d2
+        uses: JWMatheo/github-readme-stats-action@6e03c6e27219ca558245f5b4c8356ed4dbcd1ab2
         with:
           card: stats
           options: username=JWMatheo&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&show=contributions%2Cprs_merged&hide=commits%2Cissues&number_format=long&show_icons=true&theme=github_dark_dimmed
@@ -40,7 +40,7 @@ jobs:
           fail_on_error: "true"
 
       - name: Generate light statistics card
-        uses: JWMatheo/github-readme-stats-action@1bda035add1ebed29e7b9e32451fd0abbbfec9d2
+        uses: JWMatheo/github-readme-stats-action@6e03c6e27219ca558245f5b4c8356ed4dbcd1ab2
         with:
           card: stats
           options: username=JWMatheo&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&show=contributions%2Cprs_merged&hide=commits%2Cissues&number_format=long&show_icons=true&theme=default
@@ -49,7 +49,7 @@ jobs:
           fail_on_error: "true"
 
       - name: Generate dark language card
-        uses: JWMatheo/github-readme-stats-action@1bda035add1ebed29e7b9e32451fd0abbbfec9d2
+        uses: JWMatheo/github-readme-stats-action@6e03c6e27219ca558245f5b4c8356ed4dbcd1ab2
         with:
           card: top-langs
           options: username=JWMatheo&layout=compact&hide=HTML%2CCSS%2CJavaScript%2CVue%2CSCSS%2CLess%2CShell&theme=github_dark_dimmed
@@ -58,7 +58,7 @@ jobs:
           fail_on_error: "true"
 
       - name: Generate light language card
-        uses: JWMatheo/github-readme-stats-action@1bda035add1ebed29e7b9e32451fd0abbbfec9d2
+        uses: JWMatheo/github-readme-stats-action@6e03c6e27219ca558245f5b4c8356ed4dbcd1ab2
         with:
           card: top-langs
           options: username=JWMatheo&layout=compact&hide=HTML%2CCSS%2CJavaScript%2CVue%2CSCSS%2CLess%2CShell&theme=default
