@@ -20,13 +20,13 @@ I'm Mathéo a french web3 developper(Solidity, truffle/web3.js, hardhat/ethers.j
 <img align="right" width="350" src="https://media.giphy.com/media/UqYDZT2Sek7bXkL2On/giphy.gif">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=JWMatheo&layout=compact&hide=HTML%2CCSS%2CJavascript&theme=github_dark_dimmed">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=JWMatheo&layout=compact&hide=HTML%2CCSS%2CJavascript&theme=default">
-  <img alt="JWMatheo's most used languages" src="https://github-stats-extended.vercel.app/api/top-langs/?username=JWMatheo&layout=compact&hide=HTML%2CCSS%2CJavascript&theme=default">
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./profile/top-langs-light.svg">
+  <img alt="JWMatheo's most used languages" src="./profile/top-langs-light.svg">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=JWMatheo&count_private=true&include_all_commits=true&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&show=prs_merged&number_format=long&show_icons=true&theme=github_dark_dimmed&hide=issues">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=JWMatheo&count_private=true&include_all_commits=true&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&show=prs_merged&number_format=long&show_icons=true&theme=default&hide=issues">
-  <img alt="JWMatheo's GitHub stats" src="https://github-stats-extended.vercel.app/api?username=JWMatheo&count_private=true&include_all_commits=true&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&show=prs_merged&number_format=long&show_icons=true&theme=default&hide=issues">
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg">
+  <img alt="JWMatheo's GitHub stats" src="./profile/stats-light.svg">
 </picture>

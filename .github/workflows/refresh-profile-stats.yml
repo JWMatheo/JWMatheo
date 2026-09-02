@@ -31,25 +31,25 @@ jobs:
           fi
 
       - name: Generate dark statistics card
-        uses: JWMatheo/github-readme-stats-action@e74839b1337fd835b7567ea957468ffd55dec1e5
+        uses: JWMatheo/github-readme-stats-action@6129d0fb58265098852548297e283a09bac260d7
         with:
           card: stats
-          options: username=JWMatheo&count_private=true&include_all_commits=true&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&show=prs_merged&number_format=long&show_icons=true&theme=github_dark_dimmed&hide=issues
+          options: username=JWMatheo&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&show=contributions%2Cprs_merged&hide=commits%2Cissues&number_format=long&show_icons=true&theme=github_dark_dimmed
           path: profile/stats-dark.svg
           token: ${{ secrets.PROFILE_STATS_PAT }}
           fail_on_error: "true"
 
       - name: Generate light statistics card
-        uses: JWMatheo/github-readme-stats-action@e74839b1337fd835b7567ea957468ffd55dec1e5
+        uses: JWMatheo/github-readme-stats-action@6129d0fb58265098852548297e283a09bac260d7
         with:
           card: stats
-          options: username=JWMatheo&count_private=true&include_all_commits=true&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&show=prs_merged&number_format=long&show_icons=true&theme=default&hide=issues
+          options: username=JWMatheo&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&show=contributions%2Cprs_merged&hide=commits%2Cissues&number_format=long&show_icons=true&theme=default
           path: profile/stats-light.svg
           token: ${{ secrets.PROFILE_STATS_PAT }}
           fail_on_error: "true"
 
       - name: Generate dark language card
-        uses: JWMatheo/github-readme-stats-action@e74839b1337fd835b7567ea957468ffd55dec1e5
+        uses: JWMatheo/github-readme-stats-action@6129d0fb58265098852548297e283a09bac260d7
         with:
           card: top-langs
           options: username=JWMatheo&layout=compact&hide=HTML%2CCSS%2CJavascript&theme=github_dark_dimmed
@@ -58,7 +58,7 @@ jobs:
           fail_on_error: "true"
 
       - name: Generate light language card
-        uses: JWMatheo/github-readme-stats-action@e74839b1337fd835b7567ea957468ffd55dec1e5
+        uses: JWMatheo/github-readme-stats-action@6129d0fb58265098852548297e283a09bac260d7
         with:
           card: top-langs
           options: username=JWMatheo&layout=compact&hide=HTML%2CCSS%2CJavascript&theme=default
