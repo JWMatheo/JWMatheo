@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">JWMatheo&#39;s GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 12, Total Contributions: 3173, Current Commit Streak: 93, Total PRs: 298, Contributed to (last year): 6</desc>
+        <desc id="descId">Total Stars Earned: 12, Total Contributions: 3186, Current Commit Streak: 93, Total PRs: 304, Contributed to (last year): 6</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 28.738959873030474;
+        stroke-dashoffset: 28.583533390494754;
       }
     }
   
@@ -184,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="contributions"
-      >3173</text>
+      >3186</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -214,7 +214,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >298</text>
+      >304</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
